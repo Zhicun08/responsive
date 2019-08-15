@@ -1,0 +1,123 @@
+
+html{
+	width: 100vw;
+	height: 100vh;
+
+}
+
+body{
+	background-color: rgb(155,198,227);
+	margin: 0px;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
+#bgcolor{
+	width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	position: fixed;
+
+}
+#sun{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: rgb(242,206,114);
+	margin-top:50vh;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+
+}
+
+@media screen and (max-height:800px){
+	#bgcolor{
+		background-color: rgb(145,191,237);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(249,130,39);
+		border-radius: 25px;
+		width: 50px;
+	margin-top:50vh;
+	margin-bottom: auto;
+	}
+}
+
+@media screen and (max-height:700px){
+	#bgcolor{
+		background-color: rgb(122,156,216);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(248,94,35);
+		border-radius: 25px;
+		width: 50px;
+	margin-top:50vh;
+	margin-bottom: auto;
+	}
+}
+
+@media screen and (max-height:600px){
+	#bgcolor{
+		background-color: rgb(94,120,190);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(189,63,30);
+		border-radius: 25px;
+		width: 50px;
+	margin-top:50vh;
+	margin-bottom: auto;
+	}
+}
+
+@media screen and (max-height:500px){
+	#bgcolor{
+		background-color: rgb(55,78,146);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(156,63,63);
+		border-radius: 25px;
+		width: 50px;
+	margin-top:50vh;
+	margin-bottom: auto;
+	}
+}
+
+@media screen and (max-height:400px){
+	#bgcolor{
+		background-color: rgb(31,42,91);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(255,200,14);
+		border-radius: 0 100px 100px 0;
+		width: 25px;
+	margin-top:50vh;
+	margin-bottom: auto;
+
+	}
+	@keyframes fall{
+		0%{margin-top: 50vh;}
+		100%{margin-top: 400px;}
+	}
+}
+@media screen and (max-height:300px){
+
+	#bgcolor{
+		background-color: rgb(12,10,43);
+			overflow: hidden;
+	}
+	#sun{
+		background-color: rgb(255,227,131);
+		border-radius: 0 100px 100px 0;
+		width: 25px;
+	margin-top:50vh;
+	margin-bottom: auto;
+	}
+}
